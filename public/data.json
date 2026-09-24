@@ -1,0 +1,244 @@
+{
+  "workouts": [
+    {
+      "id": 1,
+      "name": "BARBELL BENCH PRESS",
+      "image": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e",
+      "category": ["CHEST", "ARMS"],
+      "equipment": "Barbell, Bench",
+      "duration": 25,
+      "calories": 180,
+      "rating": 4.8,
+      "difficulty": "Intermediate",
+      "sets": 4,
+      "reps": "6-8",
+      "description": "A compound press that builds chest thickness, triceps, and pressing power from a stable bench.",
+      "instructions": [
+        "Lie flat on the bench with your eyes directly under the bar.",
+        "Grip the bar slightly wider than shoulder width.",
+        "Lower the bar slowly toward your mid chest.",
+        "Press the bar back up while keeping your feet firmly planted."
+      ]
+    },
+    {
+      "id": 2,
+      "name": "BACK SQUAT",
+      "image": "https://images.unsplash.com/photo-1574680096145-d05b474e2155",
+      "category": ["LEGS", "GLUTES"],
+      "equipment": "Barbell, Rack",
+      "duration": 30,
+      "calories": 240,
+      "rating": 4.9,
+      "difficulty": "Advanced",
+      "sets": 4,
+      "reps": "6-10",
+      "description": "A fundamental lower-body movement targeting the quads, glutes, and hamstrings.",
+      "instructions": [
+        "Place the bar comfortably across your upper back.",
+        "Brace your core and keep your chest lifted.",
+        "Descend by bending your knees and hips.",
+        "Drive through your feet to return to standing."
+      ]
+    },
+    {
+      "id": 3,
+      "name": "DEADLIFT",
+      "image": "https://images.unsplash.com/photo-1603287681836-b174ce5074c2",
+      "category": ["BACK", "LEGS"],
+      "equipment": "Barbell",
+      "duration": 28,
+      "calories": 260,
+      "rating": 4.9,
+      "difficulty": "Advanced",
+      "sets": 4,
+      "reps": "5-6",
+      "description": "A powerful compound lift that develops the posterior chain and overall strength.",
+      "instructions": [
+        "Stand with your feet under the bar.",
+        "Grip the bar and keep your back neutral.",
+        "Push through the floor while extending your hips.",
+        "Lower the bar under control."
+      ]
+    },
+    {
+      "id": 4,
+      "name": "PULL UPS",
+      "image": "https://images.unsplash.com/photo-1598971639058-fab3c3109a00",
+      "category": ["BACK", "ARMS"],
+      "equipment": "Pull-up Bar",
+      "duration": 20,
+      "calories": 160,
+      "rating": 4.7,
+      "difficulty": "Intermediate",
+      "sets": 4,
+      "reps": "6-10",
+      "description": "A bodyweight pulling exercise that builds back width and upper-body strength.",
+      "instructions": [
+        "Grip the bar slightly wider than shoulder width.",
+        "Hang with your arms fully extended.",
+        "Pull your chest toward the bar.",
+        "Lower yourself slowly to the starting position."
+      ]
+    },
+    {
+      "id": 5,
+      "name": "OVERHEAD PRESS",
+      "image": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61",
+      "category": ["SHOULDERS", "ARMS"],
+      "equipment": "Barbell",
+      "duration": 22,
+      "calories": 150,
+      "rating": 4.6,
+      "difficulty": "Intermediate",
+      "sets": 4,
+      "reps": "8-10",
+      "description": "A standing press that develops shoulder strength and upper-body stability.",
+      "instructions": [
+        "Hold the bar at shoulder height.",
+        "Brace your core before pressing.",
+        "Press the bar overhead.",
+        "Lower it slowly back to your shoulders."
+      ]
+    },
+    {
+      "id": 6,
+      "name": "BARBELL ROW",
+      "image": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61",
+      "category": ["BACK", "ARMS"],
+      "equipment": "Barbell",
+      "duration": 24,
+      "calories": 175,
+      "rating": 4.7,
+      "difficulty": "Intermediate",
+      "sets": 4,
+      "reps": "8-10",
+      "description": "A horizontal pulling movement designed to build a thick and powerful back.",
+      "instructions": [
+        "Hinge forward while keeping your back flat.",
+        "Hold the bar slightly wider than shoulder width.",
+        "Pull the bar toward your lower ribs.",
+        "Lower the bar under control."
+      ]
+    },
+    {
+      "id": 7,
+      "name": "DUMBBELL CURL",
+      "image": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e",
+      "category": ["ARMS"],
+      "equipment": "Dumbbells",
+      "duration": 15,
+      "calories": 100,
+      "rating": 4.5,
+      "difficulty": "Beginner",
+      "sets": 3,
+      "reps": "10-12",
+      "description": "A simple isolation exercise focused on building the biceps.",
+      "instructions": [
+        "Stand with a dumbbell in each hand.",
+        "Keep your elbows close to your body.",
+        "Curl the weights toward your shoulders.",
+        "Lower them slowly."
+      ]
+    },
+    {
+      "id": 8,
+      "name": "TRICEP PUSHDOWN",
+      "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48",
+      "category": ["ARMS"],
+      "equipment": "Cable Machine",
+      "duration": 18,
+      "calories": 110,
+      "rating": 4.6,
+      "difficulty": "Beginner",
+      "sets": 3,
+      "reps": "10-12",
+      "description": "A focused triceps movement using a cable machine.",
+      "instructions": [
+        "Stand facing the cable machine.",
+        "Keep your elbows close to your sides.",
+        "Push the handle downward.",
+        "Return slowly to the starting position."
+      ]
+    },
+    {
+      "id": 9,
+      "name": "LEG PRESS",
+      "image": "https://images.unsplash.com/photo-1434596922112-19c563067271",
+      "category": ["LEGS", "GLUTES"],
+      "equipment": "Leg Press Machine",
+      "duration": 26,
+      "calories": 210,
+      "rating": 4.8,
+      "difficulty": "Intermediate",
+      "sets": 4,
+      "reps": "8-12",
+      "description": "A machine-based lower-body exercise for developing strong legs.",
+      "instructions": [
+        "Place your feet shoulder width apart.",
+        "Lower the platform with control.",
+        "Keep your knees aligned with your toes.",
+        "Push the platform away without locking your knees."
+      ]
+    },
+    {
+      "id": 10,
+      "name": "DUMBBELL LATERAL RAISE",
+      "image": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61",
+      "category": ["SHOULDERS"],
+      "equipment": "Dumbbells",
+      "duration": 16,
+      "calories": 105,
+      "rating": 4.5,
+      "difficulty": "Beginner",
+      "sets": 3,
+      "reps": "12-15",
+      "description": "An isolation movement targeting the side deltoids.",
+      "instructions": [
+        "Stand with dumbbells at your sides.",
+        "Keep a slight bend in your elbows.",
+        "Raise your arms to shoulder height.",
+        "Lower them slowly."
+      ]
+    },
+    {
+      "id": 11,
+      "name": "ROMANIAN DEADLIFT",
+      "image": "https://images.unsplash.com/photo-1603287681836-b174ce5074c2",
+      "category": ["LEGS", "GLUTES"],
+      "equipment": "Barbell",
+      "duration": 27,
+      "calories": 220,
+      "rating": 4.8,
+      "difficulty": "Intermediate",
+      "sets": 4,
+      "reps": "8-10",
+      "description": "A hip-hinge exercise that strongly targets the hamstrings and glutes.",
+      "instructions": [
+        "Hold the bar close to your thighs.",
+        "Push your hips backward while keeping your back neutral.",
+        "Lower the bar until you feel a hamstring stretch.",
+        "Drive your hips forward to stand tall."
+      ]
+    },
+    {
+      "id": 12,
+      "name": "RUSSIAN TWIST",
+      "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438",
+      "category": ["CORE"],
+      "equipment": "Medicine Ball",
+      "duration": 14,
+      "calories": 95,
+      "rating": 4.7,
+      "difficulty": "Beginner",
+      "sets": 3,
+      "reps": "12-16",
+      "description": "A rotational core exercise that challenges the abs and obliques.",
+      "instructions": [
+        "Sit with your knees bent and feet slightly raised.",
+        "Hold the medicine ball in front of your chest.",
+        "Rotate your torso from side to side.",
+        "Keep your core tight throughout the movement."
+      ]
+    }
+  ]
+}
