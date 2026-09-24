@@ -35,9 +35,7 @@ export function FitLogProvider({
   const [plan, setPlan] = useState<Workout[]>([]);
   const [saved, setSaved] = useState<Workout[]>([]);
 
-  // =========================
-  // Load data from localStorage
-  // =========================
+  
 
   useEffect(() => {
     const savedPlan = localStorage.getItem("fitlog-plan");
@@ -52,9 +50,7 @@ export function FitLogProvider({
     }
   }, []);
 
-  // =========================
-  // Save Plan to localStorage
-  // =========================
+  
 
   useEffect(() => {
     localStorage.setItem(
@@ -63,9 +59,7 @@ export function FitLogProvider({
     );
   }, [plan]);
 
-  // =========================
-  // Save Saved Workouts
-  // =========================
+
 
   useEffect(() => {
     localStorage.setItem(
@@ -74,9 +68,7 @@ export function FitLogProvider({
     );
   }, [saved]);
 
-  // =========================
-  // Add to Today's Plan
-  // =========================
+ 
 
   const addToPlan = (workout: Workout) => {
     // Maximum 5 workouts
@@ -98,9 +90,7 @@ export function FitLogProvider({
     ]);
   };
 
-  // =========================
-  // Remove from Today's Plan
-  // =========================
+
 
   const removeFromPlan = (id: number) => {
     setPlan((prev) =>
@@ -108,9 +98,6 @@ export function FitLogProvider({
     );
   };
 
-  // =========================
-  // Add to Saved
-  // =========================
 
   const addToSaved = (workout: Workout) => {
     // Prevent duplicate saved workout
