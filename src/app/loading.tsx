@@ -23,7 +23,7 @@ export default function Loading() {
         </div>
       </section>
 
-      {/* Library Skeleton */}
+      
       <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="animate-pulse">
           <div className="h-4 w-24 rounded bg-white/10" />

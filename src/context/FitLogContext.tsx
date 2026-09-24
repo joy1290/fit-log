@@ -168,9 +168,7 @@ export function FitLogProvider({
   );
 }
 
-// =========================
-// Custom Hook
-// =========================
+
 
 export function useFitLog() {
   const context = useContext(FitLogContext);

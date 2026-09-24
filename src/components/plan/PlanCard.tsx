@@ -42,7 +42,7 @@ export default function PlanCard({
   return (
     <div className="flex flex-col gap-5 rounded-xl border border-white/10 bg-[#111417] p-4 sm:flex-row sm:items-center">
       
-      {/* Workout Image */}
+   
       <Image
         src={workout.image}
         alt={workout.name}
@@ -51,10 +51,10 @@ export default function PlanCard({
         className="h-40 w-full rounded-lg object-cover sm:h-28 sm:w-40"
       />
 
-      {/* Workout Info */}
+      
       <div className="flex-1">
         
-        {/* Categories */}
+        
         <div className="flex flex-wrap gap-2">
           {workout.category.map((category) => (
             <span
@@ -66,17 +66,16 @@ export default function PlanCard({
           ))}
         </div>
 
-        {/* Name */}
         <h3 className="mt-2 font-black uppercase text-white">
           {workout.name}
         </h3>
 
-        {/* Equipment */}
+        
         <p className="mt-1 text-sm text-gray-500">
           {workout.equipment}
         </p>
 
-        {/* Stats */}
+        
         <div className="mt-4 flex flex-wrap gap-4 text-xs text-gray-400">
           <span>◷ {workout.duration} min</span>
 
@@ -85,7 +84,7 @@ export default function PlanCard({
           <span>★ {workout.rating}</span>
         </div>
 
-        {/* Done Status */}
+        
         {!isSaved && workout.isDone && (
           <p className="mt-3 text-xs font-bold uppercase text-[#ccff00]">
             ✓ Workout completed
@@ -93,10 +92,10 @@ export default function PlanCard({
         )}
       </div>
 
-      {/* Actions */}
+      
       <div className="flex flex-wrap gap-2 sm:flex-col">
         
-        {/* View Details */}
+       
         <Link
           href={`/workouts/${workout.id}`}
           className="rounded-full border border-white/20 px-4 py-2 text-center text-xs font-bold uppercase text-white transition hover:border-[#ccff00] hover:text-[#ccff00]"
@@ -104,7 +103,7 @@ export default function PlanCard({
           View Details
         </Link>
 
-        {/* Mark as Done */}
+       
         {!isSaved && (
           <button
             onClick={handleDone}
@@ -119,7 +118,7 @@ export default function PlanCard({
           </button>
         )}
 
-        {/* Remove */}
+       
         <button
           onClick={handleRemove}
           className="rounded-full border border-red-500/40 px-4 py-2 text-xs font-bold uppercase text-red-400 transition hover:bg-red-500 hover:text-white"
