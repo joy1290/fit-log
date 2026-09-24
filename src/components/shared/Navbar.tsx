@@ -20,10 +20,10 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 border-b border-white/10 bg-[#0b0d0f]/95 backdrop-blur">
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
-        {/* Main Navbar */}
+       
         <div className="flex h-16 items-center justify-between">
 
-          {/* Logo */}
+         
           <Link href="/" className="flex items-center gap-2">
             <div className="flex h-10 w-10 items-center justify-center overflow-hidden rounded-lg">
               <Image
@@ -41,7 +41,7 @@ export default function Navbar() {
             </span>
           </Link>
 
-          {/* Desktop Navigation */}
+          
           <div className="hidden items-center gap-2 md:flex">
             <Link
               href="/"
@@ -66,7 +66,7 @@ export default function Navbar() {
             </Link>
           </div>
 
-          {/* Desktop Counters */}
+        
           <div className="hidden items-center gap-2 sm:flex">
             <Link
               href="/my-plan"
@@ -83,7 +83,7 @@ export default function Navbar() {
             </Link>
           </div>
 
-          {/* Mobile Button */}
+         
           <button
             onClick={() => setMenuOpen(!menuOpen)}
             className="rounded-lg border border-white/10 p-2 text-white md:hidden"
@@ -94,7 +94,7 @@ export default function Navbar() {
           </button>
         </div>
 
-        {/* Mobile Menu */}
+       
         {menuOpen && (
           <div className="border-t border-white/10 py-4 md:hidden">
             <div className="flex flex-col gap-2">

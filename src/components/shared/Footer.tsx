@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="border-t border-white/10 bg-[#080a0c]">
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-4 py-8 sm:px-6 md:flex-row lg:px-8">
         
-        {/* Logo */}
+  
         <Link href="/" className="flex items-center gap-2">
           <div className="flex h-10 w-10 items-center justify-center overflow-hidden rounded-lg">
             <Image
@@ -25,7 +25,7 @@ export default function Footer() {
           </span>
         </Link>
 
-        {/* Copyright */}
+      
         <p className="text-center text-xs text-gray-500">
           © 2026 FitLog — Workout Library. Train hard, log honest.
         </p>
