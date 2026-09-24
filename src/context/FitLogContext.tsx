@@ -76,7 +76,7 @@ export function FitLogProvider({
       return;
     }
 
-    // Prevent duplicate workout
+   
     if (plan.some((item) => item.id === workout.id)) {
       return;
     }
@@ -108,9 +108,7 @@ export function FitLogProvider({
     setSaved((prev) => [...prev, workout]);
   };
 
-  // =========================
-  // Remove from Saved
-  // =========================
+  
 
   const removeFromSaved = (id: number) => {
     setSaved((prev) =>
@@ -118,9 +116,7 @@ export function FitLogProvider({
     );
   };
 
-  // =========================
-  // Mark Workout as Done
-  // =========================
+ 
 
   const markAsDone = (id: number) => {
     setPlan((prev) =>
