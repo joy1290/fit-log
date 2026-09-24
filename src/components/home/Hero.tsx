@@ -12,13 +12,11 @@ export default function Hero() {
             Workout Library
           </p>
 
-          <h1 className="max-w-3xl text-5xl font-black uppercase leading-[0.95] tracking-tight sm:text-6xl lg:text-7xl">
-            Train With Intent.
-            <br />
-            <span className="text-[#ccff00]">
-              Log Every Set.
-            </span>
-          </h1>
+         <h1 className="max-w-2xl text-5xl font-black uppercase leading-[0.95] tracking-tight sm:text-6xl lg:text-7xl">
+  TRAIN WITH INTENT.
+  <br />
+  LOG EVERY SET.
+</h1>
 
           <p className="mt-6 max-w-xl text-base leading-7 text-gray-400 sm:text-lg">
             FitLog is a dark, no-nonsense gym companion: pick a lift,
