@@ -4,12 +4,12 @@ export type Workout = {
   image: string;
   category: string[];
   equipment: string;
+  difficulty: string;
   duration: number;
   calories: number;
-  rating: number;
-  difficulty: string;
   sets: number;
   reps: string;
+  rating: number;
   description: string;
   instructions: string[];
   isDone?: boolean;

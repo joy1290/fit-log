@@ -1,13 +1,36 @@
-import fs from "fs/promises";
-import path from "path";
 import { Workout } from "@/types/workout.type";
 
 export async function getAllWorkouts(): Promise<Workout[]> {
-  const filePath = path.join(process.cwd(), "public", "data.json");
+  const res = await fetch(
+    `${process.env.NEXT_PUBLIC_SERVER_BASE_URL}/data.json`,
+    {
+      cache: "no-store",
+    }
+  );
 
-  const file = await fs.readFile(filePath, "utf-8");
+  if (!res.ok) {
+    throw new Error("Failed to fetch workouts");
+  }
 
-  const data = JSON.parse(file);
+  const data = await res.json();
 
-  return data.workouts;
+  return data.map((workout: any) => ({
+    id: workout.id,
+    name: workout.name,
+    image: workout.image,
+
+    category: workout.muscleGroups,
+
+    equipment: workout.equipment,
+    difficulty: workout.difficulty,
+    duration: workout.duration,
+
+    calories: workout.caloriesBurned,
+
+    sets: workout.sets,
+    reps: workout.reps,
+    rating: workout.rating,
+    description: workout.description,
+    instructions: workout.instructions,
+  }));
 }
